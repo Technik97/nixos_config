@@ -7,6 +7,6 @@
     viAlias = true;
     vimAlias = true;
     vimdiffAlias = true;
-    plugins = with pkgs.vimPlugins; []
-  }
+    plugins = with pkgs.vimPlugins; [];
+  };
 }
