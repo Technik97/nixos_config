@@ -81,7 +81,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.technik = {
     isNormalUser = true;
-    description = "Aniket Mane";
+    description = "Nix User";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
     #  thunderbird
