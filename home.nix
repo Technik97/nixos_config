@@ -5,6 +5,7 @@
   imports = [
     ./applications/tui/shell 
     ./applications/tui/neovim
+    ./applications/gui/browsers/firefox
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
