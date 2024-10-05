@@ -23,7 +23,7 @@ in
   };
 
   home.file."./.config/nvim/" = {
-	source = ./nvim;
+	source = ../../../dotfiles/nvim;
 	recursive = true;
   };
 }
