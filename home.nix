@@ -3,7 +3,7 @@
 {
 
   imports = [
-    ./sh.nix
+    ./applications/tui/shell 
     ./applications/tui/neovim
   ];
 
