@@ -1,7 +1,7 @@
 { pkgs, lib, ...}:
 
 let
-  fromGitHub = import ../../functions/fromGitHub.nix;
+  fromGitHub = import ../../../functions/fromGitHub.nix;
 in
 {
   imports = [
